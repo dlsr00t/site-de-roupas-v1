@@ -3,6 +3,7 @@
     position:relative;
     justify-content:flex-start;
     background-color:gray;
+    padding:15px;
     overflow:hidden;
     font-size:20px;
 }
@@ -68,26 +69,30 @@ button:hover{
 
 #icone{
     position:absolute;
-    top: 33%;
+    top:33.17%;
+    left:56.5%;
     font-size:30px;
+    color: rgba(255,255,255,0.8)
 }
 
 
 #campo-de-pesquisa{
-    margin-left:23%;
+    margin-left:27%;
     border-radius:20px;
     outline:none;
     border:2px solid gray;
-    background-color: rgba(33,37,41,0.5);
-    transition: 1s;
+    background-color:rgba(33,37,41,0.5);
+    position:absolute;
+    top:30%;
+    transition:1s;
 }
 
 #campo-de-pesquisa:hover{
-    background-color: rgba(33,37,41,0.75);
+    background-color:rgba(33,37,41,0.75);
 }
 
 #campo-de-pesquisa:focus{
-    background-color: rgba(33,37,41,0.75);
+    background-color:rgba(33,37,41,0.75);
 }
 
 

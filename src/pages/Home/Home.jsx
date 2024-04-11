@@ -37,9 +37,7 @@ function Home(){
             <Link className="nav-item" id="item2" to="/produtos"><ion-icon name="shirt-outline"></ion-icon></Link>
             <input type="text" id="campo-de-pesquisa" onClick={pesquisar}/>
             <button id="btn"><ion-icon id='icone' name="search-outline"></ion-icon></button>
-
             <Link id="item3"><ion-icon name="cart-outline"></ion-icon></Link>
-
         </div>   
 
         </>
