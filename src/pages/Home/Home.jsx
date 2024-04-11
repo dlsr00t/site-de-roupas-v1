@@ -18,6 +18,7 @@ function Home(){
         }
     }
     
+    
     const teste = () => {
         addEventListener("keypress", ()=> {
             if (e.key == "y") {
@@ -29,21 +30,18 @@ function Home(){
 
     }
 
-    
     return(
         <>
-        <div onClick={teste}>
-            <ul className="navbar">
-                <li className="item"><Link>Home</Link></li>
-                <li className="item"><Link to="/produtos">Produtos</Link></li>
-                <li className="item"><Link>Carrinho</Link></li>
-            </ul>
-        </div>
-
-        <div className = "div-pesquisa">
+        <div className="topnav" onClick={teste}>
+            <Link className="nav-item" id="item1"><ion-icon name="home-outline"></ion-icon></Link>
+            <Link className="nav-item" id="item2" to="/produtos"><ion-icon name="shirt-outline"></ion-icon></Link>
             <input type="text" id="campo-de-pesquisa" onClick={pesquisar}/>
-            <button id = "btn"><ion-icon id='icone' name="search-outline"></ion-icon></button>
-        </div>
+            <button id="btn"><ion-icon id='icone' name="search-outline"></ion-icon></button>
+
+            <Link id="item3"><ion-icon name="cart-outline"></ion-icon></Link>
+
+        </div>   
+
         </>
        
 
