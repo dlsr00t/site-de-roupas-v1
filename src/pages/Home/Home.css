@@ -119,8 +119,8 @@ button:hover{
 
 
 #loading{
-    margin-top:100px;
-    margin-left:500px;
+    margin-top:10%;
+    margin-left:35%;
     cursor:pointer;
     animation:spin infinite 2s linear;
 }
