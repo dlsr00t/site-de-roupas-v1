@@ -46,17 +46,17 @@
 }
 
 #item3{
-    display:inline-flex;
     float:right;
     text-decoration:none;
     color:inherit;
     cursor:pointer;
     border:1px solid transparent;
     border-radius:20px;
-    padding:10px;
     font-size:40px;
+    padding:10px;
     margin-top:15px;
     margin-right:20px;
+    bottom:60%;
     transition:.7s;
 }
 
@@ -77,13 +77,11 @@ button:hover{
 
 
 #campo-de-pesquisa{
-    position: absolute;
     margin-left:25.5%;
     border-radius:20px;
     outline:none;
     border:2px solid gray;
     background-color:rgba(33,37,41,0.5);
-    position:absolute;
     top:30%;
     /*
     padding-left:15px;
@@ -103,10 +101,14 @@ button:hover{
 }
 
 #icone{
-    position:fixed;
+
+    /*
     left:58.8%;
     top:4.1%;
+    */
+    position:absolute;
     font-size:25px;
+    transform: translateY(-80%);
     color: rgba(255,255,255,0.8);
 }
 
