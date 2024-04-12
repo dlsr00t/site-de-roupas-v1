@@ -2,10 +2,12 @@
     display:block;
     position:relative;
     justify-content:flex-start;
+    padding-left:20px;
+    height: 90px;
     background-color:gray;
-    padding:15px;
     overflow:hidden;
     font-size:20px;
+    max-height: 90px;
 }
 
 .nav-item:last-child{
@@ -32,12 +34,15 @@
 #item1 {
     display:inline-flex;
     margin-right:50px;
-    font-size:30px;
+    /*font-size:30px;*/
 }
 
 #item2{
     display:inline-flex;
-    font-size: 30px;
+    font-size: 35px;
+    margin-top:12px;
+    margin-left:45px;
+    
 }
 
 #item3{
@@ -50,6 +55,8 @@
     border-radius:20px;
     padding:10px;
     font-size:40px;
+    margin-top:15px;
+    margin-right:20px;
     transition:.7s;
 }
 
@@ -69,21 +76,22 @@ button:hover{
 
 #icone{
     position:absolute;
-    top:33.17%;
-    left:56.5%;
-    font-size:30px;
-    color: rgba(255,255,255,0.8)
+    top:36%;
+    left:59%;
+    font-size:25px;
+    color: rgba(255,255,255,0.8);
 }
 
-
 #campo-de-pesquisa{
-    margin-left:27%;
+    margin-left:25.5%;
     border-radius:20px;
     outline:none;
     border:2px solid gray;
     background-color:rgba(33,37,41,0.5);
     position:absolute;
     top:30%;
+    padding-left:15px;
+    padding-right:50px;
     transition:1s;
 }
 
@@ -95,10 +103,29 @@ button:hover{
     background-color:rgba(33,37,41,0.75);
 }
 
+#logoDoSite{
+    position:fixed;
+    width:60px;
+    top:0.5%;
+    text-decoration:none;
+    color:inherit;
+    cursor:pointer;
+    transition:0.6s;
+}
+
+#logoDoSite:hover{
+    width:70px;
+}
 
 
+#loading{
+    margin-top:100px;
+    margin-left:500px;
+    cursor:pointer;
+    transition: 800s;
+}
 
-
-
-
-
+#loading{
+    transform: rotate(300000deg);
+    display:none;
+}
