@@ -13,7 +13,7 @@ function Cards(props){
         display:"flex",
         position:"relative",
         flexDirection:"column",
-
+        overflow:"hidden"
     }
     const estiloInfo = {
         color:"red",
@@ -21,7 +21,8 @@ function Cards(props){
         position:"absolute",
         flexDirection:"column",
         alignItems:"flex-start",
-        transform: "translate(50px, 125px)"
+        top:"50%",
+        left:"8%",
     }
     return(
     <div id = "parent" style={estilo}>
