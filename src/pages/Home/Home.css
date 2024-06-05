@@ -1,3 +1,4 @@
+
 .topnav{
     display:block;
     position:relative;
@@ -32,8 +33,10 @@
 
 
 #item1 {
+    margin-top: 10px;
     display:inline-flex;
     margin-right:50px;
+    /*overflow: hidden;*/
     /*font-size:30px;*/
 }
 
@@ -42,7 +45,6 @@
     font-size: 35px;
     margin-top:12px;
     margin-left:45px;
-    
 }
 
 #item3{
@@ -51,18 +53,26 @@
     color:inherit;
     cursor:pointer;
     border:1px solid transparent;
-    border-radius:20px;
-    font-size:40px;
-    padding:10px;
-    margin-top:15px;
+    
+ 
+    /* margin-top:12px; */
     margin-right:20px;
-    bottom:60%;
+    margin-top:12px;
     transition:.7s;
+    font-size:35px;
+    padding-top:11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border:1px trasparent solid;
 }
 
 #item3:hover{
+    
     border:1px solid;
-    border-radius:30px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 20px;
+
 }
 
 button{
@@ -82,7 +92,7 @@ button:hover{
     outline:none;
     border:2px solid gray;
     background-color:rgba(33,37,41,0.5);
-    top:30%;
+    transform: translateY(-25%);
     /*
     padding-left:15px;
     padding-right:50px;
@@ -108,16 +118,15 @@ button:hover{
     */
     position:absolute;
     font-size:25px;
-    transform: translate(-180%,-80%);
-    
+    transform: translate(-180%,-115%);
     color: rgba(255,255,255,0.8);
 }
 
 
 #logoDoSite{
-    position:fixed;
+    position: relative;
     width:60px;
-    top:0.5%;
+    top:1.2%;
     text-decoration:none;
     color:inherit;
     cursor:pointer;
@@ -125,15 +134,32 @@ button:hover{
 }
 
 #logoDoSite:hover{
+    /*
+    PADRAO{
+        width:60px;
+        height:70px;
+    }
+    */
+    /*
     width:70px;
+    height: 80px;
+    */
+    
+    transform: scale(1.15);
 }
 
 
 #loading{
-    margin-top:10%;
-    margin-left:35%;
+    margin-top:17%;
+    margin-left:45%;
+    width: 170px;
     cursor:pointer;
     animation:spin infinite 2s linear;
+    /*
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    */
 }
 
 @keyframes spin {
