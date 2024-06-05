@@ -21,7 +21,7 @@ function Cards(props){
         position:"absolute",
         flexDirection:"column",
         alignItems:"flex-start",
-        top:"50%"
+        transform: "translate(50%, 90%)"
     }
     return(
     <div id = "parent" style={estilo}>
