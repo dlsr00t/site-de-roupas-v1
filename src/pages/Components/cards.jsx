@@ -14,8 +14,8 @@ function Cards(props){
         position:"relative",
         flexDirection:"column",
         overflow:"hidden",
-        boxSizing: "border-box"
-
+        boxSizing: "border-box",
+        
     }
     const estiloInfo = {
         color:"red",
@@ -23,13 +23,12 @@ function Cards(props){
         position:"absolute",
         flexDirection:"column",
         alignItems:"flex-start",
-        top:"50%",
-        left:"8%",
+        transform: "translate(70%, 70%)",
         boxSizing: "border-box"
     }
     return(
     <div id = "parent" style={estilo}>
-        <img src={props.image} style={{width: "17%"}}>
+        <img src={props.image} style={{maxWidth: "250px"}}>
 
         </img>
         <div style={estiloInfo}>
