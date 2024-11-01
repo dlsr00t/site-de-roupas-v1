@@ -50,9 +50,10 @@ function Home(){
                 <Link id="item3"><ion-icon name="cart-outline"></ion-icon></Link>
             </div>  
                 
-            <div>
+            <div className="cardsSection">
                 <img id="loading" src={Loading}></img>
-                <Cards name="blusa-azul" price="R$150" image={blusa} description="something"></Cards>
+                <Cards id = "card1" name="blusa-azul" price="R$150" image={blusa} description="something"/>
+                <Cards id = "card1" name="blusa-azul" price="R$150" image={blusa} description="something"/>
             </div>
         </div>
     )

@@ -175,3 +175,14 @@ button:hover{
 #loading{
     display:none;
 }
+
+.cardsSection{
+    display:flex;
+    justify-content:center;
+}
+
+
+#card1{
+    display:flex;
+    justify-content:center;
+}
