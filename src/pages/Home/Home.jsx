@@ -45,9 +45,13 @@ function Home(){
                 {/*<Link className="nav-item" id="item1"><ion-icon name="home-outline"></ion-icon></Link>*/}
                 <Link id="item1"><img id="logoDoSite" src={Logo}></img></Link>
                 <Link className="nav-item" id="item2" to="/produtos"><ion-icon name="shirt-outline"></ion-icon></Link>
-                <input type="text" id="campo-de-pesquisa" onClick={pesquisar}/>
-                <button id="btn"><ion-icon id='icone' name="search-outline"></ion-icon></button>
-                <Link id="item3"><ion-icon name="cart-outline"></ion-icon></Link>
+                <section className="search-section">
+                    <input type="text" id="campo-de-pesquisa" onClick={pesquisar}></input>
+                    <button id="btn"><ion-icon id='icone' name="search-outline"></ion-icon></button>
+                </section>
+                {/* <input type="text" id="campo-de-pesquisa" onClick={pesquisar}></input>
+                <button id="btn"><ion-icon id='icone' name="search-outline"></ion-icon></button> */}
+                <Link className="nav-item"  id="item3"><ion-icon name="cart-outline"></ion-icon></Link>
             </div>  
                 
             <div className="cardsSection">
